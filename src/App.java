@@ -12,7 +12,7 @@ public class App {
         do {
             try {
                 String opcao = JOptionPane
-                        .showInputDialog(null, "Escolha uma opção", "Menu", JOptionPane.PLAIN_MESSAGE, null,
+                        .showInputDialog(null, "Escolha uma opção", "Conversor - Matheus Alves", JOptionPane.PLAIN_MESSAGE, null,
                                 new Object[] { "Conversor de Moedas", "Conversor de Temperatura" }, "Escolha")
                         .toString();
                 switch (opcao) {
